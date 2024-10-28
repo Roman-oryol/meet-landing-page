@@ -9,7 +9,7 @@
         rgba(77, 150, 169, 0.85),
         rgba(77, 150, 169, 0.85)
       ),
-      url('image/tablet/image-footer.jpg') no-repeat top 0 center;
+      url('../image/tablet/image-footer.jpg') no-repeat top 0 center;
     background-size: cover;
   }
 
@@ -21,7 +21,7 @@
         rgba(77, 150, 169, 0.85),
         rgba(77, 150, 169, 0.85)
       ),
-      url('image/desktop/image-footer.jpg') no-repeat top 0 center;
+      url('../image/desktop/image-footer.jpg') no-repeat top 0 center;
     background-size: cover;
   }
 

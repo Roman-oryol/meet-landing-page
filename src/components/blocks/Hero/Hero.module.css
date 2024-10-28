@@ -11,7 +11,7 @@
     height: 39.5vw;
     margin-right: -29px;
     margin-left: -29px;
-    background-image: url('image/tablet/image-hero.png');
+    background-image: url('../image/tablet/image-hero.png');
     background-size: contain;
     background-repeat: no-repeat;
   }
@@ -34,8 +34,9 @@
       width: 100%;
       margin-right: 0;
       margin-left: 0;
-      background: url('image/desktop/image-hero-left.png') no-repeat top left -26px,
-        url('image/desktop/image-hero-right.png') no-repeat right -26px bottom 0;
+      background: url('../image/desktop/image-hero-left.png') no-repeat top left -26px,
+        url('../image/desktop/image-hero-right.png') no-repeat right -26px bottom
+          0;
     }
   }
 
@@ -88,11 +89,4 @@
     justify-content: center;
     gap: var(--spacing-200);
   }
-
-  /* @media (min-width: 820px) {
-    &::before {
-      margin-right: auto;
-      margin-left: auto;
-    }
-  } */
 }
