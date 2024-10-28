@@ -1,0 +1,52 @@
+:root {
+  --width-tablet: 768px;
+  --width-desktop: 1440px;
+
+  --font-family: 'Red Hat Display', 'Arial', sans-serif;
+
+  /* colors */
+
+  --color-cyan-600: #4d96a9;
+  --color-cyan-300: #8fe3f9;
+  --color-purple-600: #855fb1;
+  --color-purple-300: #d9b8ff;
+  --color-slate-900: #28283d;
+  --color-slate-600: #87879d;
+  --color-slate-300: #d1d1df;
+  --color-white: #fafafa;
+
+  /* spacings */
+
+  --spacing-1400: 7rem;
+  --spacing-1000: 5rem;
+  --spacing-900: 4.5rem;
+  --spacing-800: 4rem;
+  --spacing-700: 3.5rem;
+  --spacing-500: 2.5rem;
+  --spacing-400: 2rem;
+  --spacing-300: 1.5rem;
+  --spacing-200: 1rem;
+  --spacing-100: 0.5rem;
+  --spacing-50: 0.25rem;
+
+  /* font sizes */
+
+  --text-preset-1: 2.5rem;
+  --text-preset-2: 2rem;
+  --text-preset-3: 0.75rem;
+  --text-preset-4: 1rem;
+  --text-preset-5: 1rem;
+
+  @media (min-width: 768px) {
+    --text-preset-1: 3rem;
+    --text-preset-2: 2.25rem;
+    --text-preset-3: 0.875rem;
+  }
+
+  @media (min-width: 1440px) {
+    --text-preset-1: 4rem;
+    --text-preset-2: 2.5rem;
+    --text-preset-3: 1rem;
+    --text-preset-4: 1.125rem;
+  }
+}

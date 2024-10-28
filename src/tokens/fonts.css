@@ -1,0 +1,19 @@
+@font-face {
+  font-family: 'Red Hat Display';
+  src: url('../assets/fonts/RedHatDisplay-Black.woff2') format('woff2'),
+    url('../assets/fonts/RedHatDisplay-Black.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+  font-optical-sizing: auto;
+}
+
+@font-face {
+  font-family: 'Red Hat Display';
+  src: url('../assets/fonts/RedHatDisplay-Medium.woff2') format('woff2'),
+    url('../assets/fonts/RedHatDisplay-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+  font-optical-sizing: auto;
+}

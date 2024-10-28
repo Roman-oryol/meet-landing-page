@@ -1,0 +1,29 @@
+.button {
+  display: inline-block;
+  padding: var(--spacing-200) var(--spacing-500);
+  font-weight: 900;
+  color: var(--color-white);
+  border-radius: 29px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+
+  span {
+    color: var(--color-cyan-300);
+  }
+}
+
+.buttonBlue {
+  background-color: var(--color-cyan-600);
+
+  &:hover {
+    background-color: #71c0d4;
+  }
+}
+
+.buttonPurple {
+  background-color: var(--color-purple-600);
+
+  &:hover {
+    background-color: #b18bdd;
+  }
+}
