@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -5,8 +6,6 @@ import Nav from './components/blocks/Nav';
 import Hero from './components/blocks/Hero';
 import Main from './components/blocks/Main';
 import Footer from './components/blocks/Footer';
-import './App.css';
-import { useEffect } from 'react';
 
 function App() {
   useEffect(() => {
