@@ -8,22 +8,10 @@ const Main = () => {
       <Container>
         <Number num={1} />
         <div data-aos="fade-up" className={styles.collage}>
-          <img
-            src="../../../../public/image/desktop/image-woman-in-videocall.jpg"
-            alt=""
-          />
-          <img
-            src="../../../../public/image/desktop/image-women-videochatting.jpg"
-            alt=""
-          />
-          <img
-            src="../../../../public/image/desktop/image-men-in-meeting.jpg"
-            alt=""
-          />
-          <img
-            src="../../../../public/image/desktop/image-man-texting.jpg"
-            alt=""
-          />
+          <img src="image/desktop/image-woman-in-videocall.jpg" alt="" />
+          <img src="image/desktop/image-women-videochatting.jpg" alt="" />
+          <img src="image/desktop/image-men-in-meeting.jpg" alt="" />
+          <img src="image/desktop/image-man-texting.jpg" alt="" />
         </div>
         <div data-aos="fade-up" className={styles.textContent}>
           <h2>
